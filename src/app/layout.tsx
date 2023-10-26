@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head />
       <body
         className={cn(
-          'bg-background min-h-screen font-sans antialiased',
+          'bg-background min-h-screen font-sans antialiased overflow-hidden ',
           fontSans.variable,
           fontMontserrat.variable,
           fontMono.variable

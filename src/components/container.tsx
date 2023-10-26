@@ -1,5 +1,10 @@
 const Container = () => {
-  return <div>Container</div>;
+  return (
+    <div>
+      <div>Container</div>
+      <div>Container</div>
+    </div>
+  );
 };
 
 export default Container;
